@@ -65,9 +65,5 @@ Actual result on Python 3.13.5: 12 tests ran, OK. Tests cover normal input, case
 - `requirements.txt`: dependency manifest (zero external packages)
 - `tests/`: assert-based unittest suite
 - `samples/sample.txt`: reproducible sample
-- `AI_ASSIST_LOG.md`: AI assistance provenance and practice prompts
 - `RESPONSIBLE_USE.md`: privacy and verification guidance
 - `.gitignore`: excludes local environments, caches and secrets
-
-## AI assistance
-ChatGPT generated the initial project in response to the Day 2 assignment. See the log for the actual request, implementation choices, verification and three suggested follow-up prompts. The suggested prompts are not claimed as historical interactions. Complete the log with your actual follow-up interactions during practice.
