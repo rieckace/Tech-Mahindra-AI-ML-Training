@@ -1,0 +1,31 @@
+﻿requirement,decision,stage,task,role
+Predict which customers will cancel next month,Classical ML,Problem framing,Define cancellation within next month and recall target.,Product owner
+Predict which customers will cancel next month,Classical ML,Data,Join historical customer activity with cancellation labels.,Data engineer
+Predict which customers will cancel next month,Classical ML,Model,Compare logistic regression and gradient boosting using chronological splits.,Data scientist
+Predict which customers will cancel next month,Classical ML,Deployment,Publish monthly risk scores to authorised retention staff.,ML engineer
+Predict which customers will cancel next month,Classical ML,Monitoring,"Track precision, recall and subgroup drift monthly.",ML engineer
+Summarise long support emails,Generative AI,Problem framing,Define summary length and required action items.,Product owner
+Summarise long support emails,Generative AI,Data,Redact personal data from representative support emails.,Data engineer
+Summarise long support emails,Generative AI,Model,Evaluate prompted summaries against human-written summaries.,Data scientist
+Summarise long support emails,Generative AI,Deployment,Integrate a reviewable summary draft into support workflow.,ML engineer
+Summarise long support emails,Generative AI,Monitoring,"Audit omissions, hallucinations and privacy incidents.",ML engineer
+Detect defects in product photos,Deep Learning,Problem framing,Define defect types and acceptable missed-defect rate.,Product owner
+Detect defects in product photos,Deep Learning,Data,"Label photos across lighting, products and production batches.",Data engineer
+Detect defects in product photos,Deep Learning,Model,Fine-tune a pretrained vision model and test on held-out batches.,Data scientist
+Detect defects in product photos,Deep Learning,Deployment,Deploy an inspection service with manual review for uncertain photos.,ML engineer
+Detect defects in product photos,Deep Learning,Monitoring,Monitor missed defects and camera/lighting drift.,ML engineer
+Forecast weekly product demand,Classical ML,Problem framing,Set weekly forecast horizon and error metric.,Product owner
+Forecast weekly product demand,Classical ML,Data,"Collect weekly sales, stockouts, promotions and calendar features.",Data engineer
+Forecast weekly product demand,Classical ML,Model,Compare seasonal naive and lag-feature regression using rolling backtests.,Data scientist
+Forecast weekly product demand,Classical ML,Deployment,Publish weekly forecasts to inventory planners.,ML engineer
+Forecast weekly product demand,Classical ML,Monitoring,Monitor MAE and forecast bias by product.,ML engineer
+Answer employee questions from the HR policy PDF,Generative AI,Problem framing,Define policy question scope and citation requirement.,Product owner
+Answer employee questions from the HR policy PDF,Generative AI,Data,Extract and index approved versioned HR PDF sections with permissions.,Data engineer
+Answer employee questions from the HR policy PDF,Generative AI,Model,Evaluate retrieval-augmented generation for grounded answers and abstention.,Data scientist
+Answer employee questions from the HR policy PDF,Generative AI,Deployment,Deploy access-controlled assistant with source references.,ML engineer
+Answer employee questions from the HR policy PDF,Generative AI,Monitoring,Audit citation accuracy and refresh indexes after policy changes.,ML engineer
+Predict late deliveries from order history,Classical ML,Problem framing,Define late delivery against promised delivery date.,Product owner
+Predict late deliveries from order history,Classical ML,Data,Acquire permission and collect historical delivery outcomes.,Data engineer
+Predict late deliveries from order history,Classical ML,Model,Compare logistic regression and tree models without future information.,Data scientist
+Predict late deliveries from order history,Classical ML,Deployment,Integrate risk scores into dispatch review workflow.,ML engineer
+Predict late deliveries from order history,Classical ML,Monitoring,Track calibration and recall by route and season.,ML engineer
